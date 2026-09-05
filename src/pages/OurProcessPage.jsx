@@ -16,7 +16,7 @@ export default function OurProcessPage() {
         <div className="hero-overlay"></div>
 
         <div className="container hero-content animate-fade-in" style={{ textAlign: "center", margin: "0 auto" }}>
-          <span className="eyebrow eyebrow-dark">TRANSPARENT HARVESTING</span>
+          <span className="eyebrow eyebrow-dark">TRNSPARENT HARVESTING</span>
           <h1 className="hero-title">From our farm to your table.</h1>
           <p className="hero-text" style={{ margin: "0 auto" }}>
             Step-by-step transparency from pasture health, instant chilling, and 24-point lab testing to glass-bottled doorstep delivery.
