@@ -21,7 +21,7 @@ export default function ContactPage() {
       {/* HERO */}
       <section className="hero" style={{ minHeight: "50vh" }}>
         <img
-          src="/src/assets/10.png"
+          src="./src/assets/10.png"
           alt="AAVINARA Farm sunrise view"
           className="hero-bg-image"
         />
@@ -177,7 +177,7 @@ export default function ContactPage() {
 
               {/* Farm Visit Note Card */}
               <div className="card" style={{ padding: "0", backgroundColor: "var(--bg-alt)", overflow: "hidden" }}>
-                <img src="/src/assets/53.png" alt="AAVINARA Farm Map Location" style={{ width: "100%", height: "160px", objectFit: "cover" }} />
+                <img src="./src/assets/53.png" alt="AAVINARA Farm Map Location" style={{ width: "100%", height: "160px", objectFit: "cover" }} />
                 <div style={{ padding: "20px" }}>
                   <h4 style={{ fontSize: "1.1rem", marginBottom: "8px" }}>Interested in a Farm Tour?</h4>
                   <p style={{ fontSize: "0.88rem", color: "var(--text-secondary)", lineHeight: "1.5" }}>

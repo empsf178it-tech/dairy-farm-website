@@ -44,7 +44,7 @@ export const PROCESS_STEPS = [
     title: "Animal Care & Free Grazing",
     subtitle: "Healthy animals come first",
     desc: "Our morning starts at dawn with healthy cows enjoying fresh organic green fodder, massage brushes, and open pastures. Low stress leads to pure, nutrient-rich milk.",
-    image: "/src/assets/25.png",
+    image: "./src/assets/25.png",
     keyPoints: ["Organically grown green fodder", "Automated massage & cooling", "Voluntary milking environment"]
   },
   {
@@ -52,7 +52,7 @@ export const PROCESS_STEPS = [
     title: "Hygienic Milking & Rapid Chilling",
     subtitle: "Untouched by human hands",
     desc: "Automated sanitizing teats wash clean before gentle mechanical milking. Within 15 minutes, milk is rapid-chilled down to 4°C to preserve freshness and block bacterial growth.",
-    image: "/src/assets/26.png",
+    image: "./src/assets/26.png",
     keyPoints: ["Sanitized touch-free milking", "Chilled from 37°C to 4°C instantly", "Stainless steel pipeline transfer"]
   },
   {
@@ -60,7 +60,7 @@ export const PROCESS_STEPS = [
     title: "24-Point Quality Testing",
     subtitle: "Zero compromise on purity",
     desc: "Every single morning batch is sampled in our on-site lab for fat percentage, solids-not-fat (SNF), natural density, adulteration checks, and antibiotic residue tests.",
-    image: "/src/assets/27.png",
+    image: "./src/assets/27.png",
     keyPoints: ["FTIR Spectrometry analysis", "Zero synthetic chemical residue", "Lab certification per batch"]
   },
   {
@@ -68,7 +68,7 @@ export const PROCESS_STEPS = [
     title: "Gentle Pasteurization",
     subtitle: "Preserving natural enzymes & cream",
     desc: "We use gentle low-temperature pasteurization (LTLT) to destroy harmful pathogens while protecting heat-sensitive vitamins, immunoglobulins, and natural creaminess.",
-    image: "/src/assets/28.png",
+    image: "./src/assets/28.png",
     keyPoints: ["Gentle heating curve", "Preserved milk immunoglobulins", "No high-pressure homogenizers"]
   },
   {
@@ -76,7 +76,7 @@ export const PROCESS_STEPS = [
     title: "Eco-Friendly Glass Bottling",
     subtitle: "Plastic-free sustainable packaging",
     desc: "Milk is filled into thoroughly steam-sterilized glass bottles and vacuum-sealed with tamper-evident caps. Glass keeps milk colder longer and maintains zero chemical leaching.",
-    image: "/src/assets/29.png",
+    image: "./src/assets/29.png",
     keyPoints: ["Heavyweight food-grade glass", "Hermetically vacuum-sealed", "Zero plastic taste or chemical transfer"]
   },
   {
@@ -84,7 +84,7 @@ export const PROCESS_STEPS = [
     title: "Cold-Chain Doorstep Delivery",
     subtitle: "Freshness delivered before sunrise",
     desc: "Refrigerated transport vehicles haul chilled bottles directly from farm to urban distribution points overnight, reaching your home doorstep by 6:30 AM every morning.",
-    image: "/src/assets/30.png",
+    image: "./src/assets/30.png",
     keyPoints: ["4°C insulated cold trucks", "Doorstep delivery by 6:30 AM", "Convenient bottle return program"]
   }
 ];
@@ -100,7 +100,7 @@ export const CORE_VALUES = [
       "Regular health checkups and natural veterinary herbal supplements",
       "Comfortable open-air climate-controlled barns with massage brushes"
     ],
-    image: "/src/assets/31.png"
+    image: "./src/assets/31.png"
   },
   {
     id: "quality",
@@ -112,7 +112,7 @@ export const CORE_VALUES = [
       "On-site laboratory testing for fat, SNF, and chemical purity",
       "Cold chain maintained strictly at 2-4°C from milking to doorstep"
     ],
-    image: "/src/assets/32.png"
+    image: "./src/assets/32.png"
   },
   {
     id: "freshness",
@@ -124,7 +124,7 @@ export const CORE_VALUES = [
       "Gentle pasteurization preserving natural digestive enzymes",
       "100% natural, unadulterated milk with natural cream intact"
     ],
-    image: "/src/assets/33.png"
+    image: "./src/assets/33.png"
   },
   {
     id: "sustainability",
@@ -136,7 +136,7 @@ export const CORE_VALUES = [
       "Solar powered farm operations reducing carbon emissions by 40%",
       "Rainwater harvesting ponds recharging regional groundwater tables"
     ],
-    image: "/src/assets/34.png"
+    image: "./src/assets/34.png"
   }
 ];
 
@@ -151,37 +151,37 @@ export const DAILY_LIFE_MOMENTS = [
   {
     title: "Morning Pasture Grazing",
     time: "06:00 AM",
-    image: "/src/assets/35.png",
+    image: "./src/assets/35.png",
     desc: "Cows roaming naturally under soft morning sunlight in lush clover fields."
   },
   {
     title: "Fresh Green Fodder Harvest",
     time: "08:30 AM",
-    image: "/src/assets/36.png",
+    image: "./src/assets/36.png",
     desc: "Harvesting organic napier grass grown right on our estate pastures."
   },
   {
     title: "Automated Comfort Brushing",
     time: "11:00 AM",
-    image: "/src/assets/37.png",
+    image: "./src/assets/37.png",
     desc: "Gentle automated rotating brushes soothing cows inside airy mist-cooled sheds."
   },
   {
     title: "Artisanal Bilona Simmering",
     time: "02:00 PM",
-    image: "/src/assets/38.png",
+    image: "./src/assets/38.png",
     desc: "Slow-simmering cultured butter over low flame for rich golden ghee."
   },
   {
     title: "Strict Lab Quality Check",
     time: "04:30 PM",
-    image: "/src/assets/39.png",
+    image: "./src/assets/39.png",
     desc: "Testing density, fat content, and purity parameters for every batch."
   },
   {
     title: "Sunset Chilled Bottling",
     time: "06:00 PM",
-    image: "/src/assets/40.png",
+    image: "./src/assets/40.png",
     desc: "Filling sterile glass bottles ready for evening cold-chain delivery."
   }
 ];

@@ -9,7 +9,7 @@ export default function OurFarmPage() {
       {/* HERO */}
       <section className="hero" style={{ minHeight: "65vh" }}>
         <img
-          src="/src/assets/5.png"
+          src="./src/assets/5.png"
           alt="AAVINARA Farm estate landscape"
           className="hero-bg-image"
         />
@@ -52,7 +52,7 @@ export default function OurFarmPage() {
 
             <div className="split-image-wrapper">
               <img
-                src="/src/assets/6.png"
+                src="./src/assets/6.png"
                 alt="Cows in pasture"
               />
             </div>

@@ -23,7 +23,7 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="footer-brand">
             <Link to="/" className="brand-logo" style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-              <img src="/src/assets/48.png" alt="AAVINARA Emblem" style={{ width: "44px", height: "44px", objectFit: "contain", borderRadius: "50%" }} />
+              <img src="./src/assets/48.png" alt="AAVINARA Emblem" style={{ width: "44px", height: "44px", objectFit: "contain", borderRadius: "50%" }} />
               <div style={{ display: "flex", flexDirection: "column", lineHeight: 1 }}>
                 <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "2rem", color: "#FFF", margin: 0 }}>AAVINARA</h3>
                 <span className="brand-tagline" style={{ color: "#EBB842" }}>FARM FRESH DAIRY</span>
@@ -47,7 +47,7 @@ export default function Footer() {
               marginTop: "16px"
             }}>
               <img
-                src="/src/assets/52.png"
+                src="./src/assets/52.png"
                 alt="AAVINARA Single Origin Heritage Seal"
                 style={{
                   width: "58px",

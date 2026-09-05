@@ -17,7 +17,7 @@ export default function JournalPage() {
       {/* HERO */}
       <section className="hero" style={{ minHeight: "55vh" }}>
         <img
-          src="/src/assets/9.png"
+          src="./src/assets/9.png"
           alt="Dairy farm journal reading desk"
           className="hero-bg-image"
         />

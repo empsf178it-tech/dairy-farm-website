@@ -36,7 +36,7 @@ export default function OrderPage() {
       <div className="container">
         {/* HERO HEADER & SUBSCRIPTION BANNER */}
         <div style={{ position: "relative", borderRadius: "var(--radius-lg)", overflow: "hidden", marginBottom: "40px", color: "#FFF", minHeight: "220px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-          <img src="/src/assets/11.png" alt="Subscription Banner" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+          <img src="./src/assets/11.png" alt="Subscription Banner" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg, rgba(27,59,43,0.75) 0%, rgba(27,59,43,0.9) 100%)" }}></div>
           <div style={{ position: "relative", zIndex: 2, textAlign: "center", padding: "30px 20px", maxWidth: "700px" }}>
             <span className="eyebrow eyebrow-dark">DOORSTEP FRESHNESS</span>
@@ -228,11 +228,11 @@ export default function OrderPage() {
             {/* Badges 49.png & 54.png */}
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px", paddingTop: "16px", borderTop: "1px solid var(--border-light)" }}>
               <div style={{ textAlign: "center" }}>
-                <img src="/src/assets/49.png" alt="Purity Guarantee Badge" style={{ width: "100%", height: "90px", objectFit: "cover", borderRadius: "var(--radius-sm)" }} />
+                <img src="./src/assets/49.png" alt="Purity Guarantee Badge" style={{ width: "100%", height: "90px", objectFit: "cover", borderRadius: "var(--radius-sm)" }} />
                 <span style={{ fontSize: "0.75rem", fontWeight: 700, color: "var(--text-secondary)", display: "block", marginTop: "4px" }}>100% Purity Certified</span>
               </div>
               <div style={{ textAlign: "center" }}>
-                <img src="/src/assets/54.png" alt="Electric Fleet Delivery" style={{ width: "100%", height: "90px", objectFit: "cover", borderRadius: "var(--radius-sm)" }} />
+                <img src="./src/assets/54.png" alt="Electric Fleet Delivery" style={{ width: "100%", height: "90px", objectFit: "cover", borderRadius: "var(--radius-sm)" }} />
                 <span style={{ fontSize: "0.75rem", fontWeight: 700, color: "var(--text-secondary)", display: "block", marginTop: "4px" }}>Eco EV Cold Fleet</span>
               </div>
             </div>

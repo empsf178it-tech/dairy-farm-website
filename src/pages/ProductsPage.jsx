@@ -23,7 +23,7 @@ export default function ProductsPage() {
       {/* HERO */}
       <section className="hero" style={{ minHeight: "55vh" }}>
         <img
-          src="/src/assets/12.png"
+          src="./src/assets/12.png"
           alt="Fresh glass milk bottles and dairy"
           className="hero-bg-image"
         />

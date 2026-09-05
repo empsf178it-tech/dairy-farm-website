@@ -68,7 +68,7 @@ export default function HomePage({ onOpenTrial }) {
       {/* 1. HERO SECTION */}
       <section className="hero">
         <img
-          src="/src/assets/1.png"
+          src="./src/assets/1.png"
           alt="AAVINARA Dairy Farm pasture in morning sunlight"
           className="hero-bg-image"
         />
@@ -108,7 +108,7 @@ export default function HomePage({ onOpenTrial }) {
           <div className="split-section">
             <div className="split-image-wrapper">
               <img
-                src="/src/assets/2.png"
+                src="./src/assets/2.png"
                 alt="Healthy cows on AAVINARA pastures"
               />
             </div>
@@ -240,7 +240,7 @@ export default function HomePage({ onOpenTrial }) {
 
             <div className="split-image-wrapper">
               <img
-                src="/src/assets/3.png"
+                src="./src/assets/3.png"
                 alt="Farmer caring for cows on pasture"
               />
             </div>
@@ -272,7 +272,7 @@ export default function HomePage({ onOpenTrial }) {
       {/* 11. FINAL CTA */}
       <section className="section-padding" style={{ position: "relative", backgroundColor: "var(--primary-green-dark)", color: "#FFF", overflow: "hidden" }}>
         <img
-          src="/src/assets/4.png"
+          src="./src/assets/4.png"
           alt="AAVINARA farm sunrise landscape"
           style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", opacity: 0.3 }}
         />

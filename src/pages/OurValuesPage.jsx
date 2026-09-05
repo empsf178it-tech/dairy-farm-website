@@ -10,7 +10,7 @@ export default function OurValuesPage() {
       {/* HERO */}
       <section className="hero" style={{ minHeight: "55vh" }}>
         <img
-          src="/src/assets/8.png"
+          src="./src/assets/8.png"
           alt="AAVINARA green pastures"
           className="hero-bg-image"
         />

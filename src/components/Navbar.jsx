@@ -40,7 +40,7 @@ export default function Navbar({ onOpenTrial }) {
       <header className={`navbar ${scrolled ? "scrolled" : ""}`}>
         <div className="container navbar-inner">
           <Link to="/" className="brand-logo" aria-label="AAVINARA Homepage">
-            <img src="/src/assets/48.png" alt="AAVINARA Emblem" style={{ width: "40px", height: "40px", objectFit: "contain", borderRadius: "50%" }} />
+            <img src="./src/assets/48.png" alt="AAVINARA Emblem" style={{ width: "40px", height: "40px", objectFit: "contain", borderRadius: "50%" }} />
             <div className="brand-text">
               <span className="brand-name">AAVINARA</span>
               <span className="brand-tagline">FARM FRESH DAIRY</span>
@@ -99,7 +99,7 @@ export default function Navbar({ onOpenTrial }) {
       <aside className={`mobile-drawer ${mobileMenuOpen ? "open" : ""}`}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "32px" }}>
           <div className="brand-logo" style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-            <img src="/src/assets/48.png" alt="AAVINARA Emblem" style={{ width: "36px", height: "36px", objectFit: "contain", borderRadius: "50%" }} />
+            <img src="./src/assets/48.png" alt="AAVINARA Emblem" style={{ width: "36px", height: "36px", objectFit: "contain", borderRadius: "50%" }} />
             <div style={{ display: "flex", flexDirection: "column", lineHeight: 1 }}>
               <span className="brand-name" style={{ fontSize: "1.4rem" }}>AAVINARA</span>
               <span className="brand-tagline">FARM FRESH DAIRY</span>

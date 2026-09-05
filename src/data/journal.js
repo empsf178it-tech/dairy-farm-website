@@ -7,7 +7,7 @@ export const JOURNAL_POSTS = [
     date: "September 02, 2026",
     readTime: "5 min read",
     author: "Dr. Arvind Ramesh, Chief Veterinarian & Farm Lead",
-    image: "/src/assets/41.png",
+    image: "./src/assets/41.png",
     excerpt: "Take a tour behind the scenes at AAVINARA to see how technology, animal comfort, and sustainable land management come together to produce pure morning milk.",
     toc: [
       { id: "intro", title: "Introduction" },
@@ -49,7 +49,7 @@ export const JOURNAL_POSTS = [
     date: "August 28, 2026",
     readTime: "4 min read",
     author: "Deepika Sundaram, Food Quality Specialist",
-    image: "/src/assets/42.png",
+    image: "./src/assets/42.png",
     excerpt: "Understand the vital difference between store-bought ultra-processed packaged milk and farm-fresh single-origin pasteurized milk.",
     toc: [
       { id: "intro", title: "The Milk Spectrum" },
@@ -81,7 +81,7 @@ export const JOURNAL_POSTS = [
     date: "August 15, 2026",
     readTime: "6 min read",
     author: "Dr. Arvind Ramesh, Chief Veterinarian",
-    image: "/src/assets/43.png",
+    image: "./src/assets/43.png",
     excerpt: "How ethical animal husbandry, preventative healthcare, and affectionate daily care form the heart of modern responsible dairy production.",
     toc: [
       { id: "ethos", title: "Our Animal Welfare Philosophy" },
@@ -109,7 +109,7 @@ export const JOURNAL_POSTS = [
     date: "August 04, 2026",
     readTime: "4 min read",
     author: "Chef K. Venkat, Culinary Consultant",
-    image: "/src/assets/44.png",
+    image: "./src/assets/44.png",
     excerpt: "A culinary guide to preserving freshness, storing artisanal dairy, and incorporating pure ghee and soft paneer into daily home cooking.",
     toc: [
       { id: "storing", title: "Proper Dairy Storage at Home" },
@@ -134,7 +134,7 @@ export const JOURNAL_POSTS = [
     date: "July 22, 2026",
     readTime: "5 min read",
     author: "Siddharth V., Sustainability Officer",
-    image: "/src/assets/45.png",
+    image: "./src/assets/45.png",
     excerpt: "Discover how rainwater harvesting, zero-pesticide fodder, and zero-plastic glass bottle returns help us minimize our environmental footprint.",
     toc: [
       { id: "water", title: "Rainwater Harvesting & Spring Protection" },
@@ -159,7 +159,7 @@ export const JOURNAL_POSTS = [
     date: "July 10, 2026",
     readTime: "4 min read",
     author: "AAVINARA Editorial Team",
-    image: "/src/assets/46.png",
+    image: "./src/assets/46.png",
     excerpt: "Trace the 12-hour journey from 4:30 AM milking at our farm to your breakfast table at 6:30 AM the next morning.",
     toc: [
       { id: "morning", title: "4:30 AM — Gentle Dawn Milking" },

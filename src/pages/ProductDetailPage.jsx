@@ -176,7 +176,7 @@ export default function ProductDetailPage() {
         {/* VISUAL INSPECTION & RECIPE PREVIEW */}
         <section className="grid-features" style={{ gridTemplateColumns: "1fr 1fr", gap: "30px" }}>
           <div className="card" style={{ padding: "0", overflow: "hidden" }}>
-            <img src="/src/assets/51.png" alt="Packaging Inspection & Quality Seal" style={{ width: "100%", height: "220px", objectFit: "cover" }} />
+            <img src="./src/assets/51.png" alt="Packaging Inspection & Quality Seal" style={{ width: "100%", height: "220px", objectFit: "cover" }} />
             <div style={{ padding: "24px" }}>
               <span className="eyebrow">QUALITY ASSURANCE</span>
               <h3 style={{ fontSize: "1.25rem", marginBottom: "8px" }}>Steam-Sterilized Glass Packaging</h3>
@@ -187,7 +187,7 @@ export default function ProductDetailPage() {
           </div>
 
           <div className="card" style={{ padding: "0", overflow: "hidden" }}>
-            <img src="/src/assets/50.png" alt="Farm Kitchen Recipe Preview" style={{ width: "100%", height: "220px", objectFit: "cover" }} />
+            <img src="./src/assets/50.png" alt="Farm Kitchen Recipe Preview" style={{ width: "100%", height: "220px", objectFit: "cover" }} />
             <div style={{ padding: "24px" }}>
               <span className="eyebrow">FARM KITCHEN</span>
               <h3 style={{ fontSize: "1.25rem", marginBottom: "8px" }}>Artisanal Recipe Pairings</h3>

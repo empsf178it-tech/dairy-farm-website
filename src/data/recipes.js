@@ -6,7 +6,7 @@ export const RECIPES = [
     servings: "4 Servings",
     difficulty: "Easy",
     category: "Dessert",
-    image: "/src/assets/50.png",
+    image: "./src/assets/50.png",
     productUsed: "Single-Origin Fresh Milk & Bilona Ghee",
     ingredients: [
       "1 Liter AAVINARA Fresh Whole Milk",
@@ -32,7 +32,7 @@ export const RECIPES = [
     servings: "3-4 Servings",
     difficulty: "Medium",
     category: "Main Course",
-    image: "/src/assets/15.png",
+    image: "./src/assets/15.png",
     productUsed: "Artisanal Malai Paneer & Bilona Ghee",
     ingredients: [
       "250g AAVINARA Artisanal Soft Paneer (cubed)",
@@ -58,7 +58,7 @@ export const RECIPES = [
     servings: "2 Servings",
     difficulty: "Super Easy",
     category: "Beverage",
-    image: "/src/assets/14.png",
+    image: "./src/assets/14.png",
     productUsed: "AAVINARA Cultured Thick Curd",
     ingredients: [
       "1 cup AAVINARA Cultured Thick Curd",

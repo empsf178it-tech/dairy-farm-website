@@ -8,7 +8,7 @@ export default function NotFoundPage() {
       <div className="container" style={{ textAlign: "center", maxWidth: "600px" }}>
         <div style={{ position: "relative", width: "180px", height: "180px", margin: "0 auto 30px auto", borderRadius: "50%", overflow: "hidden", border: "4px solid var(--accent-yellow)", boxShadow: "var(--shadow-lg)" }}>
           <img
-            src="/src/assets/47.png"
+            src="./src/assets/47.png"
             alt="Cow on pasture 404 Illustration"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />

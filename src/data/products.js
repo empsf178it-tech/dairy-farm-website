@@ -8,11 +8,11 @@ export const PRODUCTS = [
     tagline: "Pure, untouched daily milk straight from our morning milking.",
     shortDesc: "Creamy, fresh and carefully processed to maintain natural nutrition and pure taste.",
     description: "Our signature Fresh Whole Milk comes directly from our healthy free-grazing cows every morning. Gently pasteurized to preserve its rich natural creaminess, vibrant flavor, and wholesome nutrients without any additives or preservatives.",
-    image: "/src/assets/12.png",
+    image: "./src/assets/12.png",
     gallery: [
-      "/src/assets/12.png",
-      "/src/assets/13.png",
-      "/src/assets/14.png"
+      "./src/assets/12.png",
+      "./src/assets/13.png",
+      "./src/assets/14.png"
     ],
     source: "AAVINARA Central Pastures, Tamil Nadu",
     type: "100% Whole Cow Milk",
@@ -44,10 +44,10 @@ export const PRODUCTS = [
     tagline: "Rich, velvety whole milk with natural cream intact for traditional recipes.",
     shortDesc: "Extra rich texture with high natural cream content, ideal for kheer, tea, and desserts.",
     description: "Extracted from select morning yields, our Full Cream Malai Milk retains its complete natural fat content of 6.0%. Perfect for crafting velvety badam milk, aromatic tea, traditional sweets, and thick curd at home.",
-    image: "/src/assets/15.png",
+    image: "./src/assets/15.png",
     gallery: [
-      "/src/assets/15.png",
-      "/src/assets/16.png"
+      "./src/assets/15.png",
+      "./src/assets/16.png"
     ],
     source: "AAVINARA Heritage Herd, Tamil Nadu",
     type: "Full Cream Pasteurised Milk",
@@ -79,10 +79,10 @@ export const PRODUCTS = [
     tagline: "Smooth, velvety, and naturally cultured with traditional active probiotics.",
     shortDesc: "Naturally set curd crafted from fresh pasteurized milk for gut harmony and thick texture.",
     description: "AAVINARA Thick Curd is set in climate-controlled terracotta vessels using traditional strain cultures. Mildly tangy, dense, and packed with active gut-friendly probiotics, it is the ultimate comfort food for every meal.",
-    image: "/src/assets/17.png",
+    image: "./src/assets/17.png",
     gallery: [
-      "/src/assets/17.png",
-      "/src/assets/18.png"
+      "./src/assets/17.png",
+      "./src/assets/18.png"
     ],
     source: "AAVINARA Artisanal Creamery",
     type: "Probiotic Set Curd",
@@ -114,10 +114,10 @@ export const PRODUCTS = [
     tagline: "Ultra-soft, melt-in-mouth cottage cheese crafted from pure morning milk.",
     shortDesc: "Hand-pressed cottage cheese with exceptional softness and high protein content.",
     description: "Made by coagulating fresh warm milk with natural lemon extract, our Paneer is gently hand-pressed in muslin cloth. Moist, tender, and porous, it absorbs spices beautifully without turning rubbery when cooked.",
-    image: "/src/assets/19.png",
+    image: "./src/assets/19.png",
     gallery: [
-      "/src/assets/19.png",
-      "/src/assets/20.png"
+      "./src/assets/19.png",
+      "./src/assets/20.png"
     ],
     source: "AAVINARA Dairy Kitchen",
     type: "Fresh Cottage Cheese",
@@ -149,10 +149,10 @@ export const PRODUCTS = [
     tagline: "Slowly simmered in small batches using traditional Bilona cultured butter.",
     shortDesc: "Granular, aromatic golden ghee with rich nutty notes and deep nutritional value.",
     description: "Crafted using the ancient 5-step Bilona method: fresh milk is converted into curd, hand-churned into makhan (butter), and simmered on low flame over wood logs. The result is a granular, nutty golden elixir bursting with aroma.",
-    image: "/src/assets/21.png",
+    image: "./src/assets/21.png",
     gallery: [
-      "/src/assets/21.png",
-      "/src/assets/22.png"
+      "./src/assets/21.png",
+      "./src/assets/22.png"
     ],
     source: "AAVINARA Traditional Ghee Hearth",
     type: "100% Pure Cultured Cow Ghee",
@@ -184,9 +184,9 @@ export const PRODUCTS = [
     tagline: "Churned probiotic buttermilk spiced with ginger, curry leaves & mustard seeds.",
     shortDesc: "Cooling traditional spiced churned buttermilk for ultimate summer hydration.",
     description: "Freshly churned from our cultured curd, blended with ice-cold spring water, pounded green chillies, ginger, toasted cumin, fresh coriander, and crisp curry leaves. Light, refreshing, and digestive.",
-    image: "/src/assets/23.png",
+    image: "./src/assets/23.png",
     gallery: [
-      "/src/assets/23.png"
+      "./src/assets/23.png"
     ],
     source: "AAVINARA Cold Kitchen",
     type: "Cultured Spiced Buttermilk",
@@ -218,9 +218,9 @@ export const PRODUCTS = [
     tagline: "Silky, unadulterated high-fat dairy cream skimmed from top morning yields.",
     shortDesc: "Rich whipping cream perfect for gourmet gravies, soups, coffees, and baking.",
     description: "Skimmed within hours of pasteurization, our Fresh Cream contains 25% natural milk fat without emulsifiers or gums. Adds unmatched silky richness to North & South Indian gravies, pastas, and desserts.",
-    image: "/src/assets/24.png",
+    image: "./src/assets/24.png",
     gallery: [
-      "/src/assets/24.png"
+      "./src/assets/24.png"
     ],
     source: "AAVINARA Creamery",
     type: "25% Fat Dairy Cream",
