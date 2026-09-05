@@ -59,7 +59,7 @@ export default function OurProcessPage() {
                 </div>
 
                 <div className="split-image-wrapper" style={{ direction: "ltr" }}>
-                  <img src={step.image} alt={step.title} />
+                  <img src={step.image} alt={step.title} loading="lazy" />
                 </div>
               </div>
             );
