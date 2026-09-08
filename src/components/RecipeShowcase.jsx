@@ -7,8 +7,8 @@ export default function RecipeShowcase() {
   const [activeRecipe, setActiveRecipe] = useState(RECIPES[0]);
 
   return (
-    <div className="recipe-showcase card" style={{ padding: "40px", backgroundColor: "var(--bg-card)", border: "1px solid var(--border-light)" }}>
-      <div className="section-header" style={{ marginBottom: "32px", textAlign: "left" }}>
+    <div className="recipe-showcase card">
+      <div className="section-header recipe-showcase-header">
         <span className="eyebrow eyebrow-yellow">
           <ChefHat size={14} /> FARM KITCHEN RECIPES
         </span>
@@ -19,13 +19,12 @@ export default function RecipeShowcase() {
       </div>
 
       {/* Recipe Tabs */}
-      <div style={{ display: "flex", gap: "12px", flexWrap: "wrap", marginBottom: "30px" }}>
+      <div className="recipe-tabs-container">
         {RECIPES.map((recipe) => (
           <button
             key={recipe.id}
             onClick={() => setActiveRecipe(recipe)}
-            className={`btn ${activeRecipe.id === recipe.id ? "btn-primary" : "btn-outline"}`}
-            style={{ padding: "10px 20px", fontSize: "0.88rem" }}
+            className={`btn recipe-tab-btn ${activeRecipe.id === recipe.id ? "btn-primary" : "btn-outline"}`}
           >
             <Utensils size={14} />
             <span>{recipe.title}</span>
@@ -34,25 +33,25 @@ export default function RecipeShowcase() {
       </div>
 
       {/* Active Recipe Content */}
-      <div className="split-section" style={{ gap: "40px", alignItems: "flex-start" }}>
+      <div className="split-section" style={{ gap: "30px", alignItems: "flex-start" }}>
         {/* Left Side: Recipe Image & Meta */}
         <div style={{ width: "100%" }}>
-          <div style={{ position: "relative", width: "100%", height: "300px", borderRadius: "var(--radius-md)", overflow: "hidden", marginBottom: "20px" }}>
+          <div className="recipe-image-wrapper">
             <img src={activeRecipe.image} alt={activeRecipe.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
             <span className="badge-tag" style={{ top: "16px", left: "16px" }}>{activeRecipe.category}</span>
           </div>
 
-          <div style={{ display: "flex", gap: "20px", padding: "16px", background: "var(--bg-alt)", borderRadius: "var(--radius-sm)", border: "1px solid var(--border-light)", marginBottom: "20px" }}>
-            <div style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.88rem", color: "var(--text-secondary)" }}>
-              <Clock size={16} color="var(--primary-green)" />
+          <div className="recipe-meta-bar">
+            <div className="recipe-meta-item">
+              <Clock size={16} color="var(--primary-green)" style={{ flexShrink: 0 }} />
               <span>{activeRecipe.prepTime}</span>
             </div>
-            <div style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.88rem", color: "var(--text-secondary)" }}>
-              <Users size={16} color="var(--primary-green)" />
+            <div className="recipe-meta-item">
+              <Users size={16} color="var(--primary-green)" style={{ flexShrink: 0 }} />
               <span>{activeRecipe.servings}</span>
             </div>
-            <div style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.88rem", color: "var(--text-secondary)" }}>
-              <ChefHat size={16} color="var(--primary-green)" />
+            <div className="recipe-meta-item">
+              <ChefHat size={16} color="var(--primary-green)" style={{ flexShrink: 0 }} />
               <span>{activeRecipe.difficulty}</span>
             </div>
           </div>
@@ -73,7 +72,7 @@ export default function RecipeShowcase() {
 
         {/* Right Side: Ingredients & Steps */}
         <div style={{ width: "100%" }}>
-          <h3 style={{ fontSize: "1.6rem", marginBottom: "16px" }}>{activeRecipe.title}</h3>
+          <h3 className="recipe-active-title">{activeRecipe.title}</h3>
 
           <div style={{ marginBottom: "24px" }}>
             <h4 style={{ fontSize: "1.05rem", color: "var(--warm-brown)", marginBottom: "12px", borderBottom: "1px solid var(--border-light)", paddingBottom: "6px" }}>

@@ -17,9 +17,8 @@ import OrderPage from "./pages/OrderPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
 import QuickTrialDrawer from "./components/QuickTrialDrawer";
-import TelemetryBar from "./components/TelemetryBar";
 import BackToTop from "./components/BackToTop";
-import { Gift, Zap } from "lucide-react";
+import { Zap } from "lucide-react";
 
 export default function App() {
   const [trialDrawerOpen, setTrialDrawerOpen] = React.useState(false);
@@ -28,7 +27,6 @@ export default function App() {
     <Router>
       <ScrollToTop />
       <div className="app-layout" style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
-        <TelemetryBar />
         <Navbar onOpenTrial={() => setTrialDrawerOpen(true)} />
         <main style={{ flexGrow: 1 }}>
           <Routes>
